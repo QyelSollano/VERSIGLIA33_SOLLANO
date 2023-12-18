@@ -1,0 +1,144 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:2px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:pink;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "courier"
+	    }
+	.nav {
+	    background:Red;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1; 
+		font-family:  "courier"
+	    }
+	.main {
+	    background:Purple;
+	    font-size:1.5em;
+		text-align:center;
+		color: white;;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		font-family: "courier"
+		}
+	.footer {
+	    background:pink;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+			font-family: "courier"
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+		  font-family: "courier"
+ 		    }
+		.header {
+	    background:pink;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:Red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+		font-family: "courier"
+	    }
+	.main {
+	    background:Purple;
+	    font-size:2em;
+		text-align:center;
+		color:white;
+		grid-column:span 2;
+		font-family: "courier"
+		}
+		.footer {
+	    background:pink;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+			font-family: "courier"
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+		  font-family: "courier"
+ 		    }
+		.header {
+	   background:pink;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "courier"
+	    }
+	.nav {
+	    background:Red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "courier"
+	    }
+	.main {
+	    background:Purple;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "courier"
+		}
+	.footer {
+	    background:pink;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;        
+font-family: "courier"	
+	
+		}
+	</style>
+	    <title>Menu</title>
+	</head>
+<body>
+
+<div class=container>	
+    <div class=header>Who Am I?</div>
+	<div class=nav><a href=ABOUT.html>ABOUT ME</a>
+	<a href=TALENTSKILLS.html>MY TALENTS AND SKILLS</a>
+	<a href=STATUS.html>MY STATUS</a>
+	<a href=LIKES.html>MY LIKES</a>
+	</div>
+	<div class=main>Hello My name is Qyel Ino V. Sollano and GET TO KNOW ME BY CLICKING THE LINKS ON THE LEFT!!!
+	<p align = center><img src=rous.jpg style="width:200;height:50">
+	</br></br></div>
+	<div class=footer> 
+	<a href=me.html>BY QYEL INO V. SOLLANO</div>
+	
+	</div>
+</body>
+</html>
